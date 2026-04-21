@@ -1,6 +1,6 @@
-# AI Distraction Agent — Focus Tracker (Face Pose + Live Stats)
+# Automated Distraction Agent — Focus Tracker (Face Pose + Live Stats)
 
-AI Distraction Agent is a real-time focus tracker that uses your webcam and **MediaPipe’s pretrained face landmark model** (ML) to estimate head pose (pitch/yaw/roll). A lightweight rule-based layer then classifies whether you’re **Focused** or **Distracted**, while the app tracks session stats, logs events, and graphs focus over time.
+This automated distraction agent is a real-time focus tracker that uses your webcam and **MediaPipe’s pretrained face landmark model** (ML) to estimate head pose (pitch/yaw/roll). A lightweight rule-based layer then classifies whether you’re **Focused** or **Distracted**, while the app tracks session stats, logs events, and graphs focus over time.
 
 ---
 
