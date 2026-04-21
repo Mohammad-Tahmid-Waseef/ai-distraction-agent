@@ -6,24 +6,24 @@ This automated distraction agent is a real-time focus tracker that uses your web
 
 ## ✨ Features
 
-- ✅ **Real-time webcam tracking** (OpenCV)
-- ✅ **Face landmark detection (468 points)** with MediaPipe Face Mesh
-- ✅ **Head pose estimation** → pitch/yaw/roll (solvePnP + Euler angles)
-- ✅ **Focus classification** using simple thresholds:
+-  **Real-time webcam tracking** (OpenCV)
+-  **Face landmark detection (468 points)** with MediaPipe Face Mesh
+-  **Head pose estimation** → pitch/yaw/roll (solvePnP + Euler angles)
+-  **Focus classification** using simple thresholds:
   - Looking left/right = distracted (yaw threshold)
   - Looking up/down = distracted (pitch threshold)
   - No face detected = distracted (you left / camera can’t see you)
-- ✅ **Live session statistics**
+-  **Live session statistics**
   - Focus time vs distracted time
   - Focus percentage
-- ✅ **Focus-over-time graph** (last 30 minutes)
-- ✅ **Event log** with timestamps (state changes + actions)
-- ✅ **Export session data to JSON** (`focus_log_YYYYMMDD_HHMMSS.json`)
-- ✅ **Threaded video processing** so the GUI stays responsive
+-  **Focus-over-time graph** (last 30 minutes)
+-  **Event log** with timestamps (state changes + actions)
+-  **Export session data to JSON** (`focus_log_YYYYMMDD_HHMMSS.json`)
+-  **Threaded video processing** so the GUI stays responsive
 
 ---
 
-## 🧠 How it works (high level)
+## 🧠 How it works 
 
 1. Webcam frame is captured with OpenCV  
 2. MediaPipe detects face mesh landmarks  
